@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    font-family: "montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #FFFDEC;
+}
+
+header{
+  background-color: #FFFDEC;
+  padding: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #C74900;
+}
+
+header a {
+    color: #0D301D;
+    text-decoration: none;
+} 
+
+header a:hover {
+  color: #C74900;
+}
+
+.contenutoheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 80px;
+}
+
+.intro2 {
+  max-width: 600px;
+  margin: 90px auto;
+  text-align: center;
+  font-size: 16px;
+  padding: 0 20px;
+  color: black;
+}
+
+.boxpollino{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D301D;
+}
+.testopollino{
+    flex: 1 1 50%;
+    max-width: 500px;
+}
+
+.lupo{
+    flex: 0 0 500px;
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.contenutopollino{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+
+
+
+
+.boxparadiso{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D301D;
+}
+.testoparadiso{
+    flex: 1 1 50%;
+    max-width: 500px;
+}
+
+.stambecco{
+    flex: 0 0 500px;
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.contenutoparadiso{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+
+
+
+
+.boxetna{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D301D;
+}
+.testoetna{
+    flex: 1 1 50%;
+    max-width: 500px;
+}
+
+.fiori{
+    flex: 0 0 500px;
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.contenutoetna{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+
+
+
+
+.boxdolomiti{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D301D;
+}
+.testodolomiti{
+    flex: 1 1 50%;
+    max-width: 500px;
+}
+
+.fiori2{
+    flex: 0 0 500px;
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.contenutodolomiti{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    align-items: flex-start;
+}
+footer {
+  background-color: #FFFDEC;
+  padding: 40px;
+  margin-top: 60px;
+}
+
+footer p{
+    font-weight: bold;
+}
+
+.contenutofooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenutofooter ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contenutofooter li {
+  display: inline;
+  margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+    
+  .contenutoheader{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul{
+    padding: 0;
+  }
+
+  nav li{
+    display: block;
+    margin: 10px 0;
+  }
+
+  h1{
+    font-size: 28px;
+  }
+
+  .herosection{
+    height: 300px;
+  }
+
+  .intro{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+
+  .boxpollino{
+    max-width: 450px;
+    margin: 20px auto;
+  }
+
+  .contenutopollino{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .lupo{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 200px;
+  }
+
+
+
+
+    .boxparadiso{
+    max-width: 450px;
+    margin: 20px auto;
+  }
+
+  .contenutoparadiso{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .stambecco{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 200px;
+  }
+
+
+
+    .boxetna{
+    max-width: 450px;
+    margin: 20px auto;
+  }
+
+  .contenutoetna{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .fiori{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 200px;
+  }
+
+
+
+
+    .boxdolomiti{
+    max-width: 450px;
+    margin: 20px auto;
+  }
+
+  .contenutodolomiti{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .fiori2{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 200px;
+  }
+
+    .contenutofooter{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .contenutofooter li{
+    display: block;
+    margin: 5px 0;
+  }
+}
